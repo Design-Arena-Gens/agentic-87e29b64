@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/next" }
+  ],
+  "env": {
+    "JWT_SECRET": "change-me-please",
+    "AI_API_BASE": "https://api.openai.com/v1",
+    "AI_API_KEY": "",
+    "AI_MODEL": "gpt-4o-mini"
+  }
+}
